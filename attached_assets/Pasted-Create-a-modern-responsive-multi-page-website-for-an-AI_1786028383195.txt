@@ -1,0 +1,203 @@
+Create a modern, responsive, multi-page website for an AI project called "Battery Health Analyzer".
+
+Theme:
+- Clean, futuristic UI
+- White, blue, and green color palette
+- Smooth animations
+- Glassmorphism cards
+- Mobile-friendly
+- Professional engineering project style
+
+Technology:
+- HTML
+- CSS
+- JavaScript
+- Use Chart.js for graphs
+- No backend required (frontend prototype)
+
+Website Pages:
+
+1. Home
+- Hero section with title:
+  "Battery Health Analyzer"
+- Subtitle:
+  "AI-powered Battery Monitoring and Health Prediction System"
+- Attractive battery illustration
+- Get Started button
+- Navigation bar
+- Animated background
+
+2. About
+Explain:
+- Why battery health is important
+- Problems caused by battery degradation
+- How AI helps predict battery lifespan
+- Real-world applications
+
+3. Features
+Include feature cards with icons:
+
+✔ Battery Health Percentage
+✔ Charge Cycle Monitoring
+✔ Temperature Analysis
+✔ Voltage Monitoring
+✔ Capacity Prediction
+✔ Remaining Useful Life Prediction
+✔ Fast Charging Analysis
+✔ Battery Usage Statistics
+✔ Health Score
+✔ AI Recommendations
+
+4. Battery Analyzer
+Create an interactive demo where users can enter:
+
+Battery Capacity (mAh)
+Current Voltage (V)
+Temperature (°C)
+Charge Cycles
+Charging Frequency
+Battery Age (months)
+
+When clicking "Analyze Battery":
+
+Display:
+
+Battery Health (%)
+Health Status
+Estimated Remaining Life
+Temperature Status
+Cycle Status
+Recommendations
+
+Health Status should change based on values:
+
+95-100% → Excellent
+80-94% → Good
+60-79% → Average
+40-59% → Poor
+Below 40% → Replace Battery
+
+5. Dashboard
+
+Show animated cards for:
+
+Battery Health
+Temperature
+Voltage
+Capacity
+Charge Cycles
+Estimated Life
+
+Include:
+
+Circular progress indicator
+Battery icon animation
+Chart.js line chart showing battery degradation over time
+Pie chart for battery usage
+
+6. AI Insights
+
+Generate intelligent suggestions like:
+
+Reduce fast charging.
+Avoid charging overnight.
+Keep temperature below 40°C.
+Avoid complete discharge.
+Use original charger.
+
+Display them inside beautiful recommendation cards.
+
+7. Project Workflow
+
+Create a flow diagram:
+
+Input Data
+↓
+AI Processing
+↓
+Battery Health Analysis
+↓
+Prediction Model
+↓
+Recommendation Engine
+↓
+User Dashboard
+
+8. Applications
+
+Cards for:
+
+Electric Vehicles
+Smartphones
+Laptops
+Solar Batteries
+UPS Systems
+IoT Devices
+Industrial Batteries
+
+9. Team Section
+
+Add placeholders for:
+
+Member Photo
+Name
+Role
+
+10. Contact Page
+
+Include:
+
+Contact Form
+Email
+Phone
+GitHub
+LinkedIn
+
+11. Footer
+
+Include:
+
+Quick Links
+Project Description
+Copyright
+Social Media Icons
+
+Extra Features:
+
+Dark/Light mode toggle
+Animated battery charging effect
+Loading screen
+Scroll animations
+Hover effects
+Gradient buttons
+Responsive navbar
+Sticky navigation
+Smooth scrolling
+Back-to-top button
+Typing animation in hero section
+Floating battery icons in background
+Animated counters
+Professional fonts (Poppins)
+
+Demo Logic:
+
+Calculate battery health using simple frontend JavaScript formulas.
+
+Example:
+
+Start at 100%.
+
+Subtract health based on:
+- Charge cycles
+- High temperature
+- Battery age
+
+Return:
+
+Health Percentage
+Status
+Recommendations
+
+Display charts using Chart.js with sample dynamic values.
+
+The website should look like a professional engineering final-year project suitable for college presentations, hackathons, and portfolio demonstrations. Write clean, well-organized code with comments and maintainable file structure.

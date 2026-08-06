@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Battery Health Analyzer"
+description = "A modern, multi-page frontend website for an AI battery health monitoring and prediction system. Features an interactive battery analyzer demo, dashboard with Chart.js charts, AI insights, project workflow, team section, contact page, dark/light mode toggle, glassmorphism UI, and animated effects. No backend required — all logic runs in the browser."
+version = "1.0.0"
+id = "artifacts/battery-health-analyzer"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19698
+
+[services.development]
+run = "pnpm --filter @workspace/battery-health-analyzer run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/battery-health-analyzer", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/battery-health-analyzer/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19698"
+BASE_PATH = "/"
